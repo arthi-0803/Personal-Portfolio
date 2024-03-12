@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3eae65f8ce.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="background">
+        <div class="container">
+            <nav>
+                <img src="images/logoarti.png" class="logo">
+                <ul class="menu1">
+                    <li><a href="#background">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Achievement">Achievement</a></li>
+                    <li><a href="#project">My Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                </div>
+                
+            </nav>
+            <div class="intro">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Arthi !!</span></h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div id ="about">
+        <div class="container">
+            <div class="rows">
+                <div class="col-first">
+                    <img src="images/mypic.jpg">
+                </div>
+                <div class="col-second">
+                    <h2 class="subtitle">About Me</h2>
+                    <p>
+                        To enhance my professional skills,capabilities and knowledge in an organization
+                        which recognizes the values of hardwork and trust me with responsibilities and challenges.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Development as Frontend<br></span>
+                            HTML<br>
+                            CSS<br>
+                            JavaScript
+                        </li>
+                            
+                        <li><span>Other Expertise Skills<br></span>
+                            Java Programming<br>
+                            UI/UX designing Basics
+                        </li>
+                   </ul>
+
+                    </div>
+
+                            <div class="tab-contents" id="internship">
+                                <ul>
+                                    <li><span>2023 (Jul 01- Jul 31)</span><br>Gateway Software Solutions / Frontend Development</li>
+                                    <li><span>2024 (Feb 15- Mar 15)</span><br>CodSoft / Frontend Development</li>
+                                    <li><span>2024 (Mar 01- April 01)</span><br>Tech_Octanet services private limited / Frontend Development</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="education">
+                                    <ul>
+                                        <li><span>2022-2025</span><br>Karpagam College of Engineering</li>
+                                        <li><span>2019-2022</span><br>Mahendra Polytechnic College<br>
+                                        Diploma-94%</li>
+                                        <li><span>2018-2019</span><br>Jayarani Girls Higher Secondary School<br>
+                                            SSLC-86%
+                                        </li>
+                                    </ul>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+
+
+
+<!-----Achievement -->
+    <div id="Achievement">
+        <div class="container">
+            <h1 class="sub=title">My Achievement</h1>
+            <div class="Achievement-list">
+                <div class="row1">
+                    <h2>NPTEL Certification</h2>
+                    <ul>
+                        <li>Programming in Java</li>
+                    </ul>
+                    <a href="#">Check out</a>
+                </div>
+
+
+
+                <div class="row2">
+                    <h2>GreatLearning Certification</h2>
+                    <ul>
+                        <li>HTML and CSS</li>
+                        <li>Introduction to JavaScript</li>
+                        <li>Ui/Ux designing</li>
+                        <li>AWS for Beginners</li>
+                    </ul>
+                    
+
+                    <h2>HackerRank Certification</h2>
+                    <ul>
+                        <li>CSS (Basic)</li>
+                    </ul>
+                    <a href="#">Check out</a>
+                </div>
+
+
+
+                <div>
+                    <h2>Co-Curricular</h2>
+                    <h3>Workshop:</h3>
+                    <ul>
+                        <li>
+                            Industry 4.0 & Digital Twin(Sri Krishna College of Engineering & Technology)
+                        </li>
+                        <li>
+                        Geospatial Technology:An Emerging field for Computer Scientist(Sri Sai Ranganathan Engineering College)
+                        </li>
+                    </ul>
+                    <h3>Technical Event:</h3>
+                    <ul>
+                        <li>
+                            Snapcode(Sri Krishna College of Engineering & Technology)
+                        </li>
+                    </ul>
+                    <a href="#">Check out</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!----My Project-->
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                
+                <div class="work">
+                    <h2>Calculator</h2>
+                    <p>I created a functional calculator using HTML, CSS, and JavaScript. It features a user-friendly interface for performing 
+                        arithmetic operations accurately,demonstrating my skills in web development and interactive design..</p>
+                        
+                </div>
+                <div class="work">
+                    <h2>Starbucks website</h2>
+                    <p>I have Developed a Interactive Landing page website inspired by the Starbucks brand using HTML,CSS and JavaScript.
+                        this project highlights my proficiency in frontend web development and 
+                        showcases my creativity in combining design and interactivity.
+
+                    </p>
+                    
+                </div>
+                <div class="work">
+                    <h2>Personal Portfolio</h2>
+                    <p>My Personal Portfolio is a dynamic website crafted with HTML, CSS, and JavaScript. It showcases my skills, projects, 
+                        and experiences through responsive design, interactive elements, and smooth transitions, 
+                        offering visitors a comprehensive view of my capabilities and facilitating easy contact for collaborations.
+                    </p>
+                    
+                </div>
+                <div class="work">
+                    <h2>Animated Coffee</h2>
+                    <p>I developed an animated coffee website using HTML, CSS, and JavaScript. 
+                        The website features captivating animations and transitions inspired by coffee culture. 
+                        Leveraging CSS animations, this project highlights my proficiency in frontend web development and 
+                        showcases my creativity in combining design and interactivity.
+
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------contact------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="rows">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <h3><i class="fa-solid fa-paper-plane"></i>arthiraman08@gmail.com</h3>
+                    <h3><i class="fa-solid fa-phone"></i>9361461141</h3>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/arthi-raman"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/arthi-0803"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/717822f501-Arthi R.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter your email" required>
+                        <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+                        <button type="submit" class="btn1">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ 2024.Made with <i class="fa-solid fa-heart"></i> by Arthi</p>
+        </div>
+    </div>
+    </body>
+
+</html>
